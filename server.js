@@ -17,8 +17,12 @@ connectDB()
 
 app.use(logger)
 
-app.options('*', cors(corsOptions));
 
+// Apply the CORS middleware
+app.use(cors(corsOptions));
+
+// Explicitly handle preflight OPTIONS requests
+app.options('*', cors(corsOptions));
 
 app.use(express.json())
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
