@@ -5,6 +5,8 @@ const path = require('path')
 const { logger, logEvents } = require('./middleware/logger')
 const errorHandler = require('./middleware/errorHandler')
 const cookieParser = require('cookie-parser')
+const cors = require('cors')
+const corsOptions = require('./config/corsOptions')
 const connectDB = require('./config/dbConn')
 const mongoose = require('mongoose')
 const PORT = process.env.PORT || 3500
@@ -15,6 +17,7 @@ connectDB()
 
 app.use(logger)
 
+app.use(cors(corsOptions))
 
 app.use(express.json())
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
