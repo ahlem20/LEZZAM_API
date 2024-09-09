@@ -1,4 +1,5 @@
-const allowedOrigins = require('./allowedOrigins')
+
+const allowedOrigins = ['https://lezzamapp.onrender.com'];
 
 const corsOptions = {
     origin: (origin, callback) => {
