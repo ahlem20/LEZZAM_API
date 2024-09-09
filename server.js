@@ -24,8 +24,9 @@ app.use(cors(corsOptions));
 // Explicitly handle preflight OPTIONS requests
 app.options('*', cors(corsOptions));
 
+
 app.use(express.json())
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use('/routes/uploads', express.static(path.join(__dirname, 'uploads')));
 
 app.use(cookieParser())
 
