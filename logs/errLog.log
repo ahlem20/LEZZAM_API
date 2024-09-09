@@ -1,0 +1,389 @@
+20240905	16:22:16	fef1a626-b706-45bd-a0db-b033816ccb48	Error: ENOENT: no such file or directory, open 'C:\Users\oasis\OneDrive\Desktop\New lezzam\backend\uploads\1725549736836-papa_platform.pdf'	POST	/project/projects	http://localhost:3000
+20240905	16:22:19	8220b066-fae1-45a6-b060-25abab598e28	Error: ENOENT: no such file or directory, open 'C:\Users\oasis\OneDrive\Desktop\New lezzam\backend\uploads\1725549739772-papa_platform.pdf'	POST	/project/projects	http://localhost:3000
+20240905	16:23:04	16015644-ab7a-4a83-8c30-86adf95d0af1	Error: ENOENT: no such file or directory, open 'C:\Users\oasis\OneDrive\Desktop\New lezzam\backend\uploads\1725549784560-predictions (8).pdf'	POST	/project/projects	http://localhost:3000
+20240905	16:25:03	27100802-a45a-4ff3-bc8f-faf2d863955e	ReferenceError: Project is not defined	POST	/project/projects	http://localhost:3000
+20240905	16:25:36	1bd313d8-9fbb-41a3-aaea-f8196ff945f9	ReferenceError: Project is not defined	POST	/project/projects	http://localhost:3000
+20240905	16:27:58	b0b72a32-badd-46bf-824d-77febe37ea8d	ReferenceError: Project is not defined	POST	/project/projects	http://localhost:3000
+20240905	16:30:34	8fce5d13-1ef6-4dc4-ae1b-7c38e6117198	TypeError: Cannot read properties of null (reading 'username')	GET	/project/notes	undefined
+20240905	16:30:38	d5425099-667c-47d1-b8be-b161295dd56d	TypeError: Cannot read properties of null (reading 'username')	GET	/project/notes	undefined
+20240905	16:31:44	af07e933-b5ad-4408-affa-a33201352f88	ReferenceError: Project is not defined	GET	/project/projects/student/66d86bcf1960880ae3ef39cd	undefined
+20240905	16:31:46	e0eaebc0-2412-46b8-b705-a75d5b858c93	ReferenceError: Project is not defined	GET	/project/projects/student/66d86bcf1960880ae3ef39cd	undefined
+20240905	16:32:34	45bc50ca-ff8f-4523-b403-a233d50f3a39	ReferenceError: notesWithUser is not defined	GET	/project/notes	undefined
+20240905	16:47:44	8183b768-0309-45be-925d-9c18fd1dfa07	ReferenceError: Project is not defined	GET	/project/projects/student/66d86bcf1960880ae3ef39cd	undefined
+20240905	16:56:24	9773190a-15dc-4f14-a3b1-2879f402b379	ReferenceError: Project is not defined	GET	/project/projects/student/66d86bcf1960880ae3ef39cd	undefined
+20240905	16:56:28	5455fbda-e1fc-48f6-8db5-8210a9c51752	ReferenceError: Project is not defined	GET	/project/projects/student/66d86bcf1960880ae3ef39cd	undefined
+20240905	17:48:04	a8480a39-7b4b-48d6-8815-769e7d030a2b	CastError: Cast to ObjectId failed for value "${user._id}" (type string) at path "studentId" for model "Project"	GET	/project/projects/student/$%7Buser._id%7D	undefined
+20240907	21:53:38	968f40cb-ab80-45be-9aad-9e3a38a89da6	CastError: Cast to string failed for value "{
+  text: 'QR-PBNV6F',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 200,
+    '5': 26,
+    '6': 188,
+    '7': 158,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    { x: 153, y: 397, estimatedModuleSize: 14, count: 2 },
+    {
+      x: 176,
+      y: 208.9,
+      estimatedModuleSize: 13.542857142857141,
+      count: 10
+    },
+    {
+      x: 360,
+      y: 228.5,
+      estimatedModuleSize: 12.714285714285714,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725742418363,
+  resultMetadata: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240907	21:53:42	447a1638-1301-49d0-a019-b696f62c6654	CastError: Cast to string failed for value "{
+  text: 'QR-PBNV6F',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 200,
+    '5': 26,
+    '6': 188,
+    '7': 158,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    { x: 153, y: 397, estimatedModuleSize: 14, count: 2 },
+    {
+      x: 176,
+      y: 208.9,
+      estimatedModuleSize: 13.542857142857141,
+      count: 10
+    },
+    {
+      x: 360,
+      y: 228.5,
+      estimatedModuleSize: 12.714285714285714,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725742422057,
+  resultMetadata: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240907	21:53:43	2e3ddbea-07d7-4ba7-a762-fcbea3efc378	CastError: Cast to string failed for value "{
+  text: 'QR-PBNV6F',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 200,
+    '5': 26,
+    '6': 188,
+    '7': 158,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    { x: 153, y: 397, estimatedModuleSize: 14, count: 2 },
+    {
+      x: 176,
+      y: 208.9,
+      estimatedModuleSize: 13.542857142857141,
+      count: 10
+    },
+    {
+      x: 360,
+      y: 228.5,
+      estimatedModuleSize: 12.714285714285714,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725742423965,
+  resultMetadata: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240907	21:53:44	a858ad4f-db88-429d-b579-619ec1210f21	CastError: Cast to string failed for value "{
+  text: 'QR-PBNV6F',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 200,
+    '5': 26,
+    '6': 188,
+    '7': 158,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    { x: 153, y: 397, estimatedModuleSize: 14, count: 2 },
+    {
+      x: 176,
+      y: 208.9,
+      estimatedModuleSize: 13.542857142857141,
+      count: 10
+    },
+    {
+      x: 360,
+      y: 228.5,
+      estimatedModuleSize: 12.714285714285714,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725742424656,
+  resultMetadata: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240907	21:53:46	1a62e8ac-fb7f-4f01-a9e4-8d05421d79a7	CastError: Cast to string failed for value "{
+  text: 'QR-PBNV6F',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 200,
+    '5': 26,
+    '6': 188,
+    '7': 158,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    { x: 153, y: 397, estimatedModuleSize: 14, count: 2 },
+    {
+      x: 176,
+      y: 208.9,
+      estimatedModuleSize: 13.542857142857141,
+      count: 10
+    },
+    {
+      x: 360,
+      y: 228.5,
+      estimatedModuleSize: 12.714285714285714,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725742426088,
+  resultMetadata: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240907	21:53:50	f71a6a91-c2cc-46a8-bd9a-593cfeb18ebe	CastError: Cast to string failed for value "{
+  text: 'QR-PBNV6F',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 200,
+    '5': 26,
+    '6': 188,
+    '7': 158,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    { x: 153, y: 397, estimatedModuleSize: 14, count: 2 },
+    {
+      x: 176,
+      y: 208.9,
+      estimatedModuleSize: 13.542857142857141,
+      count: 10
+    },
+    {
+      x: 360,
+      y: 228.5,
+      estimatedModuleSize: 12.714285714285714,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725742430064,
+  resultMetadata: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240907	22:19:05	d823da0f-f80b-40bd-bf60-1a225b845c25	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:19:08	454c4984-063a-479d-8d44-508b88d56b84	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:19:08	0c1b2848-396a-4c60-969e-9819df6203c4	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:19:13	08893cff-09be-4d2d-8ac8-df80b242e09b	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:19:13	ee62de60-700f-4928-83fc-626c262955d9	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:19:24	d7cd7f7e-b07d-4001-a574-b038a70f59db	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:19:24	320e1619-8eca-4c69-a295-5436959f536a	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:23	ac7db1c8-83b5-4566-96e9-3d8c2e6de786	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:23	dcef5b23-3add-4175-b5cb-d05768a66a95	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:26	bb792ae9-d5d1-42ab-a87c-333401ed0291	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:26	36a14c5b-6665-48b2-9ae1-26d327bbfce5	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:27	19ea6ff6-2215-4f2f-bdb2-7272ace9c4f8	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:28	5d78089e-a3ee-43e0-a6ad-32973039e37e	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:44	8da9cbd2-4063-4102-8b28-cf0247fc6072	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:24:44	68ae0705-bea6-439f-b480-aeebfd564fca	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:25:52	7ae63c71-6fd2-498c-99a3-4be2a6a0df15	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:25:53	cae41690-e0f9-45f2-8b71-41b2c41eeb56	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:26:05	aad7569a-2b26-4fc7-8317-4c27f5423114	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:26:06	cb498c58-f153-4070-beea-093921ca7c63	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	http://localhost:3000
+20240907	22:27:30	7795874a-5b25-4796-8ee0-46a59c3004e8	TypeError: Cannot read properties of null (reading 'username')	GET	/project/projects/teacher/ahlem/active	undefined
+20240907	22:35:35	23d1e6fa-a615-4b7b-b362-04f30b68f1bf	TypeError: project.remove is not a function	DELETE	/project/textprojects/66d9dd0477de7d4e7f8bff44	http://localhost:3000
+20240907	22:35:50	778eaf4c-5591-44b0-a245-7ad1f6a883da	TypeError: project.remove is not a function	DELETE	/project/textprojects/66d9dd0477de7d4e7f8bff44	http://localhost:3000
+20240907	22:37:06	99545070-fe21-453b-b0b7-a61fa02e6e8b	TypeError: project.remove is not a function	DELETE	/project/textprojects/66d9c8938d15c316c0d11f1b	http://localhost:3000
+20240907	22:38:00	0b95fce0-df68-4f74-9845-c7a6d82c7197	TypeError: project.remove is not a function	DELETE	/project/textprojects/66d9dd0477de7d4e7f8bff44	http://localhost:3000
+20240907	22:38:05	1b69d1f5-c05a-43ce-993f-9cdd21030f50	TypeError: project.remove is not a function	DELETE	/project/textprojects/66d9dd0477de7d4e7f8bff44	http://localhost:3000
+20240908	16:52:07	a7809cff-3e16-4b9c-87e2-d0f093f745c0	TypeError: Cannot read properties of null (reading 'length')	GET	/user/teachers?id=66dda56de8d5337e614a3511	undefined
+20240908	17:05:55	088c2dc0-1851-4abf-8c32-285d7729749e	ReferenceError: mongoose is not defined	GET	/user/teacherNames/66dda403e8d5337e614a350c	undefined
+20240908	17:06:11	70a316c2-2453-40a7-99bf-6995b6f059da	ReferenceError: mongoose is not defined	GET	/user/teacherNames/66dda403e8d5337e614a350c	undefined
+20240908	17:06:24	d9265f6d-6a1b-4634-af62-14abf891db91	ReferenceError: mongoose is not defined	GET	/user/teacherNames/66dda403e8d5337e614a350c	undefined
+20240908	17:06:46	b3b7e35f-b995-4423-8e01-78588f117125	ReferenceError: mongoose is not defined	GET	/user/teacherNames/66dda403e8d5337e614a350c	undefined
+20240908	17:07:02	9d6c3267-2bd6-4979-9a95-2941b55489b8	ReferenceError: mongoose is not defined	GET	/user/teacherNames/66dda403e8d5337e614a350c	undefined
+20240908	17:08:04	abf59019-417b-4188-99ba-fd938253fadc	ReferenceError: mongoose is not defined	GET	/user/teacherNames/66dda403e8d5337e614a350c	undefined
+20240908	17:43:43	91423421-25c0-4506-8d88-d2650a20f157	ReferenceError: projects is not defined	GET	/project/get-pdf/66d9d281c76f820c15256b10	undefined
+20240908	17:46:12	1b46c265-bed0-4299-addd-0f4d8f6103a1	ReferenceError: projects is not defined	GET	/project/get-pdf/66d9d281c76f820c15256b10	undefined
+20240908	17:47:20	8bd78ddc-c37d-4bb4-bd15-29cfeca9605f	MongooseError: Model.find() no longer accepts a callback	GET	/project/get-pdf/66d9d281c76f820c15256b10	undefined
+20240908	17:47:43	fa15b430-828c-4459-949b-027a2e3fc059	MongooseError: Model.find() no longer accepts a callback	GET	/project/get-pdf/66d9d31fc76f820c15256b2	undefined
+20240908	17:47:45	95f15bdd-534a-49a6-8771-9ae0ef1ae286	MongooseError: Model.find() no longer accepts a callback	GET	/project/get-pdf/66d9d31fc76f820c15256b2	undefined
+20240908	17:48:22	e7713e63-41e8-4b93-9674-a854d50bcbfd	MongooseError: Model.find() no longer accepts a callback	GET	/project/get-pdf/66d9d31fc76f820c15256b2	undefined
+20240908	21:50:23	4855ebdf-2886-4fbf-b0ed-8c6ff0f51e0b	CastError: Cast to string failed for value "{
+  text: 'QR-LPIZPC',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 81,
+    '5': 223,
+    '6': 32,
+    '7': 24,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    {
+      x: 151,
+      y: 330.5,
+      estimatedModuleSize: 10.714285714285714,
+      count: 2
+    },
+    {
+      x: 156,
+      y: 187,
+      estimatedModuleSize: 10.571428571428571,
+      count: 5
+    },
+    {
+      x: 298.5,
+      y: 193,
+      estimatedModuleSize: 9.642857142857142,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725828623298,
+  resultMetadata: {},
+  canvas: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240908	21:50:23	b814fab7-5c5d-4c6a-a5eb-061499f9e466	CastError: Cast to string failed for value "{
+  text: 'QR-LPIZPC',
+  rawBytes: {
+    '0': 32,
+    '1': 76,
+    '2': 173,
+    '3': 233,
+    '4': 81,
+    '5': 223,
+    '6': 32,
+    '7': 24,
+    '8': 0,
+    '9': 236,
+    '10': 17,
+    '11': 236,
+    '12': 17,
+    '13': 236,
+    '14': 17,
+    '15': 236
+  },
+  numBits: 128,
+  resultPoints: [
+    {
+      x: 157,
+      y: 326,
+      estimatedModuleSize: 10.714285714285714,
+      count: 2
+    },
+    {
+      x: 162.5,
+      y: 182.5,
+      estimatedModuleSize: 10.428571428571429,
+      count: 4
+    },
+    {
+      x: 305,
+      y: 190,
+      estimatedModuleSize: 9.571428571428571,
+      count: 2
+    }
+  ],
+  format: 11,
+  timestamp: 1725828623399,
+  resultMetadata: {},
+  canvas: {}
+}" (type Object) at path "qrnumber" for model "Project"	PATCH	/project/projects/activate	http://localhost:3000
+20240909	00:23:56	8290c914-d74a-47d9-adc9-d33f276a516c	Error: Not allowed by CORS	OPTIONS	/auth/login	https://lezzamfrontend1.onrender.com
+20240909	00:24:06	5624ec26-1bec-4581-8088-e476b07f8b5c	Error: Not allowed by CORS	OPTIONS	/auth/login	https://lezzamfrontend1.onrender.com
+20240909	00:26:39	7e250ae5-597a-4ed8-9473-fcf2cd4bdb6b	Error: Not allowed by CORS	OPTIONS	/auth/login	https://lezzamfrontend1.onrender.com
+20240909	00:26:40	f21c33b7-5b9c-4265-a870-2a4a994a6da5	Error: Not allowed by CORS	OPTIONS	/auth/login	https://lezzamfrontend1.onrender.com
