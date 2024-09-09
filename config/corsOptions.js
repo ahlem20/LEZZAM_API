@@ -1,5 +1,5 @@
 
-const allowedOrigins = ['https://lezzamapp.onrender.com'];
+const allowedOrigins = ['https://lezzamapp.onrender.com','https://lezzamapp.onrender.com/login'];
 
 const corsOptions = {
     origin: (origin, callback) => {
