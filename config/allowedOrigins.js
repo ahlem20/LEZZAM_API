@@ -1,8 +1,7 @@
 
 const allowedOrigins = [
     'http://localhost:3000',
-    'https://lezzamfrontend1.onrender.com/',
-    'https://lezzamapp.onrender.com/'
+    'tps://abtech-ufd1.onrender.com' '
 ]
 
 module.exports = allowedOrigins
