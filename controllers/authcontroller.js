@@ -20,7 +20,7 @@ const signup = async (req, res) => {
             username,
             password: hashedPassword,
             email,
-            roles: 'teacher', // Set roles to 'teacher' explicitly
+            roles: '[teacher]', // Set roles to 'teacher' explicitly
             phoneNumber,
             description,
         });
