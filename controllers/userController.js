@@ -77,7 +77,7 @@ const StudentsByClass = asyncHandler(async (req, res) => {
 
     // Create a filter object based on provided criteria
     const filter = {
-        roles: 'Student',
+        roles,
         University,
         College,
         Department,
