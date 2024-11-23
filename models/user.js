@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
         required: true
     },
     roles: {
-        type: [String], // Updated to an array of strings
+        type: String, // Updated to an array of strings
         required: true
       },
     active: {
