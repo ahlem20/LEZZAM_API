@@ -77,7 +77,7 @@ const StudentsByClass = asyncHandler(async (req, res) => {
 
     // Create a filter object based on provided criteria
     const filter = {
-        roles,
+        roles: 'Student',
         University,
         College,
         Department,
@@ -100,6 +100,7 @@ const StudentsByClass = asyncHandler(async (req, res) => {
 
     res.json(users);
 });
+
 
 // @desc Get all users
 // @route GET /users
