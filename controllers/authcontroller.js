@@ -1,32 +1,32 @@
 const bcrypt = require("bcryptjs");
 const User = require("../models/user.js");
 const generateTokenAndSetCookie = require("../utils/generateToken.js");
-
 const signup = async (req, res) => {
     try {
-        const { username, password,email,roles,phoneNumber,description } = req.body;
+        const { username, password, email, phoneNumber, description } = req.body;
 
+        // Check if the username already exists
         const user = await User.findOne({ username });
-
         if (user) {
             return res.status(400).json({ error: "Username already exists" });
         }
 
-        // HASH PASSWORD HERE
+        // Hash the password
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
 
+        // Create a new user with roles set to 'teacher'
         const newUser = new User({
             username,
             password: hashedPassword,
             email,
-            roles,
+            roles: 'teacher', // Set roles to 'teacher' explicitly
             phoneNumber,
-            description
+            description,
         });
 
+        // Save the new user and generate a JWT token
         if (newUser) {
-            // Generate JWT token here
             generateTokenAndSetCookie(newUser._id, res);
             await newUser.save();
 
